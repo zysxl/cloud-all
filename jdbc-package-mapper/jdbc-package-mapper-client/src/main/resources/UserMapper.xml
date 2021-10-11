@@ -1,0 +1,10 @@
+<mapper namespace="user">
+    <!--sql 的唯一标识 namespace.id -->
+    <select id="selectList" resultType="com.york.User">
+        select * from user
+    </select>
+
+    <select id="selectOne" resultType="com.york.User" parameterType="com.york.User">
+        select * from user where username = #{username}
+    </select>
+</mapper>
