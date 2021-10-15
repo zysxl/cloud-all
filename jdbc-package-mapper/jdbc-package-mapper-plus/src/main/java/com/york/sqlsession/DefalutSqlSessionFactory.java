@@ -1,7 +1,6 @@
 package com.york.sqlsession;
 
 import com.york.pojo.Configuration;
-import sun.management.counter.perf.PerfInstrumentation;
 
 /**
  * @author by: zhouyang
@@ -21,6 +20,6 @@ public class DefalutSqlSessionFactory implements SqlSessionFactory {
     @Override
     public SqlSession openSession() {
 
-        return new DefalutSqlSession();
+        return new DefaultSqlSession();
     }
 }

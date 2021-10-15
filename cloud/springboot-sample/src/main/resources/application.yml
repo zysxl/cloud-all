@@ -1,0 +1,12 @@
+server:
+  port: 9001
+  path: /springboot-sampl
+person:
+  id: 111
+  name: york
+  fames: [11,22]
+  list: [33,44]
+  map: {k1:v1,k2:v2}
+  pet:
+    name: lisi
+    type: lisi-type
